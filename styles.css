@@ -1,0 +1,166 @@
+
+
+
+
+@font-face {
+    font-family:"Poppins", sans-serif;
+    src:url('https://fonts.googleapis.com/css?family=Calistoga&display=swap');
+    font-weight: 400;
+    } 
+
+body {
+    background-color: #F8F0EE;
+    margin: 0 auto;
+
+}
+
+
+    
+.header {
+ 
+    padding: 5px 5px;
+    margin: 5px 1px;
+    font-size: 20px;
+    font-family:"Calistoga", sans-serif ;
+    color: rgb(83, 208, 236) ;
+    background-color: rgb(39, 71, 160);
+    text-align: center;
+    border-top: 1px;
+    cursor: pointer;
+    
+    }
+    
+    .nav {
+        list-style: none;
+        font-family:"Poppins", sans-serif;
+        display: flex;
+        justify-content: space-evenly;
+        align-items: center;
+    }
+    
+    .nav-item {
+        display: inline-block;
+        padding: 51px 25px;
+        font-size:18px;
+        font-family:"Calistoga", sans-serif ;
+        color: rgb(39, 71, 160) ;
+        background-color: rgb(83, 208, 236);
+    }
+
+    .image{
+        width: 400px;
+        text-align: right;
+        margin: 0px 0 0px 400px;
+        padding: 0px 0px 0px 200px;
+        display: inline-block;
+        border-bottom: 2px solid #E3492B;
+        border-right: 2px solid #E3492B;
+        }
+
+.p  {
+    align-items: center; 
+    display: flex ;
+    justify-content: center;
+    align-items: center;
+  
+
+}  
+
+.projects{
+    display: flex ;
+    justify-content: center;
+    align-items: center;
+    flex-wrap: wrap;
+
+}
+.project{
+    width: 150px;
+    height:50px;   
+    border-radius: 50px;
+    display: flex ;   
+    margin: 20px;
+    justify-content: center;
+    align-items: center;
+    background-color: blanchedalmond;  
+    box-shadow: 0px 5px 25px rgb(39, 90, 83);
+}
+
+
+    .tittle{
+        padding: 51px 25px;
+        font-size: 20px;
+        font-family:"Poppins", sans-serif ;
+        color:rgb(229, 56, 109);
+        padding: 5px 200px;
+        text-align: center;
+        border-bottom: 3px solid  rgb(39, 71, 160) ; 
+        
+      
+
+    }
+    .h1 {
+        flex-direction: row;
+         justify-items: center;
+        justify-content: space-evenly; 
+    
+
+    }
+    .description-firs{
+    color:  rgb(229, 56, 109);
+    font-size: 18px;
+    font-family:"Poppins", sans-serif ;
+    margin: 10px 0px 10px 0px;
+    padding: 10px 1px 10px;
+    text-align: center ;
+    flex-wrap: wrap;
+    align-items: flex-start;
+    
+    }
+    .p {
+        width: 100vh;
+         
+         }
+
+
+    .social-media-icons{
+        width: 200vh;
+        font-size: 30px;
+        display: flex;
+        flex-direction: row ;
+        align-items: flex-start;
+        justify-items: center;
+        justify-content: space-evenly ;  
+        flex-wrap: wrap;
+                 }
+                 
+    #fab-fa-github      {
+        flex-direction: row ;
+        align-items: center;
+        justify-items: center;
+        justify-content: space-evenly;  
+        flex-wrap: wrap;
+    }      
+
+ 
+    .quote{
+    color: #E3492B;
+    text-align: right;
+    margin: 10px 0px 10px 0px;
+    padding: 1px;
+    font-size: 14px;
+    display: inline-block;
+    width: 800px;
+    }
+
+    .footer{
+    padding: 10px 10px;
+    margin: 5px 1px;
+    font-size: 16px;
+    font-family:"Poppins", sans-serif ;
+    color:rgb(83, 208, 236);
+    background-color: rgb(39, 71, 160);
+    text-align: center;
+    border-top: 1px;
+    cursor: pointer;
+
+}
