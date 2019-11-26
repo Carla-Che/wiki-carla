@@ -45,6 +45,7 @@ body {
         font-family:"Calistoga", sans-serif ;
         color: rgb(39, 71, 160) ;
         background-color: rgb(83, 208, 236);
+        border-radius: 40px
     }
 
     .image{
@@ -75,7 +76,7 @@ body {
 }
 .project{
     width: 150px;
-    height:50px;   
+    height:150px;   
     border-radius: 50px;
     display: flex ;   
     margin: 20px;
@@ -93,16 +94,23 @@ body {
         color:rgb(229, 56, 109);
         padding: 5px 200px;
         text-align: center;
-        border-bottom: 3px solid  rgb(39, 71, 160) ; 
-        
+       
+        display: flex;
+        align-items: center;
+        flex-direction: row;
+        justify-items: center;
+        justify-content: space-evenly; 
+    
       
 
     }
     .h1 {
+
+        align-items: center;
         flex-direction: row;
-         justify-items: center;
+        justify-items: center;
         justify-content: space-evenly; 
-    
+        
 
     }
     .description-firs{
@@ -115,6 +123,12 @@ body {
     flex-wrap: wrap;
     align-items: flex-start;
     
+    }
+
+    .nav-link{
+        color: rgb(39, 71, 160);
+        text-decoration: none;
+
     }
     .p {
         width: 100vh;
@@ -129,8 +143,8 @@ body {
         flex-direction: row ;
         align-items: flex-start;
         justify-items: center;
-        justify-content: space-evenly ;  
-        flex-wrap: wrap;
+        justify-content: space-evenly;  
+        cursor: pointer;
                  }
                  
     #fab-fa-github      {
