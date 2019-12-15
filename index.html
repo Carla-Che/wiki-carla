@@ -19,7 +19,7 @@
                 <li class="nav-item"> 
                  <a href="#about" class= "nav-link"> SOBRE MI </a>
                 </li>
-               <li class="nav-item"> SKILLS</li>
+               <li class="nav-item"> <a class="item" href="#skills" > SKILLS</a></li>
                 <li class="nav-item">PROYECTOS</li>
                 <li class="nav-item">CONTACTO</li>
             </ul>
@@ -61,21 +61,110 @@
 
        <br>
 
+       <br>
+       <br>
+       <br>
+      <br>
        <div class= skill
         ></div>
 
        <div class="projects">
 
-             <div class="project"> <img src="..LOGOSTECNOLOGIAS" alt=""> </div>
-             <div class="project"> Proyecto 2</div>
-             <div class="project"> Proyecto 3 </div>
+             <div class="project-1"> </div>
+             <div class="project-2" id="skills" ></div>
+             <div class="project-3"> <a  href="https://www.google.com/" class="work-3" > </a></div>
        </div>
+
+       <br>
+       <br>
+       <br>
+       <br>
+
 <!--
            <img class="image"
          src="https://images.pagina12.com.ar/styles/focal_3_2_960x640/public/media/articles/29879/camila-sosa-villada-2-0.jpg?itok=WNalnkRo" alt="camila sosa villada escritora">
            
       -->  
+
+       <div class="contacto">
+
+        <form>
+
+          <div class="name"> 
+            <label for="username"> Nombre Completo </label>
+            <div class="username-container">
+            <input type="text" id="username" placeholder="Ingrese un Nombre" name="username"/>
+            <i class="fas fa-id-card"></i>
+            <i class="fas fa-user-check"></i> 
+          </div>
+          </div>
+        
+
+           <div>
+             <label for="mail"> Email</label>
+             <div class="input-mail">
+              <input type="email" id="mail" placeholder="usuario@gmail.com" > 
+              <i class="fas fa-user-astronaut"></i> 
+              <i class="fas fa-user-check"></i> 
             
+            </div>
+            </div>
+
+          <div> 
+            
+                  <label for="question"> ¿Cómo me conociste? </label>
+                  <select name="question" id="question">
+              <option value="LinkedIn">LinkedIn</option>
+              <option value="Twitter">Twitter</option>
+              <option value="Facebook">Facebook</option>
+              <option value="referrals">Referidos</option>
+              <option value="others">Otro</option>             
+            </select>
+           
+           </div>
+              
+              <div class="options" >
+                  <fieldset>
+                    <legend> </legend>
+                    
+                  <label for="motivo"> Motivo: </label>
+                  
+                  <input type="radio" name="Motivo" id="Motivo">
+
+                    <label for="motivo"> Oferta de Empleo</label> 
+              
+                    <input type="radio" name="Motivo" id="Motivo">
+                   
+                    <label for="motivo"> Propuesta de trabajo </label> 
+                    
+                  <input type="radio" name="Motivo" id="Motivo">
+
+                    <label for="motivo"> Consulta </label> 
+                    
+                  <input type="radio" name="Motivo" id="Motivo">
+
+                    <label for="motivo"> Otros </label> 
+
+                  
+                  </fieldset>
+            </div>
+
+              <div>
+            <label for="message">Mensaje </label>
+            <textarea name="message" id="message" cols="30" rows="10"></textarea>
+           </div>
+
+           <div>
+             <button type="submit"> Enviar </button>
+           </div>
+
+           
+
+         
+
+           
+        </form>
+       </div>
 
     
     <div class= "footer">

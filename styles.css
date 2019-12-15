@@ -11,15 +11,14 @@
 body {
     background-color: #F8F0EE;
     margin: 0 auto;
-
+    
 }
 
 
-    
 .header {
- 
-    padding: 5px 5px;
+  
     margin: 5px 1px;
+    width: 100%;
     font-size: 20px;
     font-family:"Calistoga", sans-serif ;
     color: rgb(83, 208, 236) ;
@@ -27,26 +26,42 @@ body {
     text-align: center;
     border-top: 1px;
     cursor: pointer;
+    position: fixed;
+    top: -70px;
+    margin: 60px 10px 10px 0px;
+    padding:10px 70px 10px 0px;
+    display:none;
+    display:inline-block
+    
     
     }
     
     .nav {
         list-style: none;
         font-family:"Poppins", sans-serif;
-        display: flex;
-        justify-content: space-evenly;
-        align-items: center;
+         display: flex;
+         justify-content: space-evenly;
+         flex-direction: row;
+        
     }
     
     .nav-item {
-        display: inline-block;
-        padding: 51px 25px;
-        font-size:18px;
-        font-family:"Calistoga", sans-serif ;
-        color: rgb(39, 71, 160) ;
-        background-color: rgb(83, 208, 236);
-        border-radius: 40px
+    display: inline-block;
+    margin: 5px;
+    padding: 20px;
+    font-size:18px;
+    font-family:"Calistoga", sans-serif ;
+    color: rgb(39, 71, 160) ;
+    background-color: rgb(83, 208, 236);
+    border-radius: 40px
+
     }
+
+.item{
+
+    color:  rgb(39, 71, 160);
+    text-decoration: none;
+}
 
     .image{
         width: 400px;
@@ -68,24 +83,77 @@ body {
 }  
 
 .projects{
+    
     display: flex ;
     justify-content: center;
     align-items: center;
     flex-wrap: wrap;
+    color:  rgb(39, 71, 160);
+    text-decoration: none;
 
 }
 .project{
-    width: 150px;
-    height:150px;   
-    border-radius: 50px;
+    width: 250px;
+    height:250px;  
+    border-radius: 15px;
     display: flex ;   
     margin: 20px;
     justify-content: center;
     align-items: center;
     background-color: blanchedalmond;  
     box-shadow: 0px 5px 25px rgb(39, 90, 83);
+    
+
 }
 
+.project-1{
+    background-image: url(https://images-na.ssl-images-amazon.com/images/I/71QQ5IoWctL._SY355_.jpg) ;
+    width: 250px;
+    height:250px;   
+    border-radius: 15px;
+    display: flex ;   
+    margin: 20px;
+    justify-content: center;
+    align-items: center;  
+    box-shadow: 0px 5px 25px rgb(39, 90, 83);
+
+}
+
+.project-2{
+    background-image: url(https://http2.mlstatic.com/mini-cactus-y-suculentas-souvenirs-D_NQ_NP_750884-MLA27328598883_052018-Q.jpg) ;
+    width: 250px;
+    height:250px;   
+    border-radius: 15px;
+    display: flex ;   
+    margin: 20px;
+    justify-content: center;
+    align-items: center;  
+    box-shadow: 0px 5px 25px rgb(39, 90, 83);
+}
+
+.project-3{
+    background-image: url(https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQ2bARwXOip3nTmpyUEw7ivMxlFD6gsHFFC8i7sYQbukAMU9hHdhA&s) ;
+    width: 250px;
+    height:250px;   
+    border-radius: 15px;
+    display: flex ;   
+    margin: 20px;
+    justify-content: center;
+    align-items: center;  
+    box-shadow: 0px 5px 25px rgb(39, 90, 83);
+    cursor: pointer;
+
+}
+
+.work-3{
+    color: rgb(39, 71, 160);
+    text-decoration: none;
+
+}
+
+.work-3.visited{
+    color: blue;
+}
 
     .tittle{
         padding: 51px 25px;
@@ -94,16 +162,14 @@ body {
         color:rgb(229, 56, 109);
         padding: 5px 200px;
         text-align: center;
-       
         display: flex;
         align-items: center;
         flex-direction: row;
         justify-items: center;
         justify-content: space-evenly; 
-    
-      
+        margin: 120px 10px 10px 10px;
+      }
 
-    }
     .h1 {
 
         align-items: center;
@@ -111,7 +177,6 @@ body {
         justify-items: center;
         justify-content: space-evenly; 
         
-
     }
     .description-firs{
     color:  rgb(229, 56, 109);
@@ -177,4 +242,78 @@ body {
     border-top: 1px;
     cursor: pointer;
 
+}
+.contacto{
+    font-size: 14px;
+    font-family:"Poppins", sans-serif ;
+    margin-left: 250px;
+    display: inline-block;
+    border-radius: 5%;
+    
+}
+.options{
+border-bottom: 4px 4px 4px 4px solid rgb(39, 71, 160);
+margin: 5px;
+padding: 5px;   
+display:inline-block;
+border-radius: 5%;
+}
+
+#username, #mail, #question, #message {
+ 
+margin: 3px;
+padding: 3px; 
+border-radius: 5%;
+}
+
+#username, #mail {
+    width: 300px;
+    margin: 0px 20px 0px 0px;
+    text-align: initial;
+    padding: 10px 10px 0px 30px;
+
+}
+
+textarea{
+    border-radius: 10%;
+}
+
+button{
+ margin: 5px;
+padding: 5px;
+border-radius: 10%;
+}
+.username-container{
+    position: relative;
+    }
+
+.fa-id-card{
+    position: absolute;
+    top: 10px;
+    left: 10px;
+}
+
+ .input-mail {
+position: relative;
+}
+
+.fa-user-astronaut{
+    position: absolute;
+    top: 10px;
+    left: 10px;
+    
+}
+.fa-user-check{
+    position: absolute;
+    top: 10px;
+    left:320px;
+    color: green;
+    display: none;
+}
+.input email-input:valid ~ .fa-user-check{
+    display:block;
+    }
+
+.input username-container:valid ~ .fa-user-check{
+    display: block;
 }
